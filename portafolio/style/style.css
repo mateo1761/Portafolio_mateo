@@ -1,0 +1,15 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main
+{
+    background: white;
+}
+.perfil
+{
+    margin-bottom: 10px;
+    width: 100%;
+}
