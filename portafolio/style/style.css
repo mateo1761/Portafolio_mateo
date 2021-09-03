@@ -13,3 +13,9 @@ main
     margin-bottom: 10px;
     width: 100%;
 }
+.card img
+{
+    width: 150px;
+    height: 240px;
+    margin-left: 35%;
+}
