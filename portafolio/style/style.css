@@ -107,15 +107,40 @@
     margin-bottom: 10px;
     width: 100%;
 }
+.prueba h4
+{
+    color: slateblue;
+}
+.conocimientos .prueba img
+{
+    height: 325px;
+    width: 250px;
+    margin-top: 25px;
+}
+.conocimientos img
+{
+    height: 46px;
+    width: 35px;
+}
+.download-cv
+{
+    padding: 10px 20px;
+    background-color: #4361ee;
+    border: none;
+    border-radius: 25px;
+    color: white;
+}
+.download-cv:hover
+{
+    color: black;
+    background-color: white;
+    border: 1px solid #4361ee;
+}
 .card img
 {
     width: 150px;
     height: 240px;
     margin-left: 35%;
-}
-.card-group
-{
-    border: 1px solid yellowgreen;
 }
 a:link
 {
@@ -129,6 +154,15 @@ footer h2
 {
     color: white;
     text-align: center;
+}
+footer .card img
+{
+    margin-right: 140px;
+    margin-top: 15px;
+}
+footer .container .card
+{
+    height: 250px;
 }
 @media (max-width: 800px)
 {
@@ -152,5 +186,9 @@ footer h2
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
+    }
+    footer .container
+    {
+        height: 1130px;
     }
 }
