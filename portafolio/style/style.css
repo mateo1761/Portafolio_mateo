@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container2 a
+{
+    margin-right: 80px;
+}
 .container
 {
     width: 100%;
@@ -54,8 +58,9 @@
 {
     margin: 30px auto;
     width: 80vw;
+    /*display: grid;*/
     display: inline-block;
-    grid-template-columns: repeat(2,1fr);
+    /*grid-template-columns: repeat(2,1fr);*/
 }
 .informacion img
 {
@@ -81,12 +86,16 @@
 .informacion h1,
 .informacion p
 {
-    background-color: #90e0ef;
     margin-top: 15px;
     position: relative;
     display: inline-block;
-    color: firebrick;
     align-items: center;
+}
+.conocimientos
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 130px;
 }
 .principal img
 {
@@ -128,6 +137,17 @@ footer h2
         width: 100%;
         max-width: 1200px;
         height: 1430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .container2
+    {
+        width: 100%;
+        max-width: 1200px;
+        height: 530px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
