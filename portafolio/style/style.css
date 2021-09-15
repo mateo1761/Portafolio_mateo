@@ -169,7 +169,7 @@ footer .container .card
 {
     height: 250px;
 }
-@media (max-width: 800px)
+@media (max-width: 1200px)
 {
     .container
     {
@@ -181,7 +181,10 @@ footer .container .card
         justify-content: center;
         margin: auto;
     }
-    
+    .container .card p
+    {
+        font-size: 13.5px;
+    }
     .container2
     {
         width: 100%;
@@ -192,8 +195,17 @@ footer .container .card
         justify-content: center;
         margin: auto;
     }
+    .container .card img
+    {
+        margin: 15px 35px;
+    }
     footer .container
     {
         height: 1130px;
+    }
+    .conocimientos
+    {
+        display: inline-block;
+        margin-left: 50px;
     }
 }
