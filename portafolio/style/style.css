@@ -91,6 +91,11 @@
     display: inline-block;
     align-items: center;
 }
+#proyectos,
+#hoobies
+{
+    text-align: center;
+}
 .conocimientos
 {
     display: grid;
